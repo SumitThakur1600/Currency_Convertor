@@ -26,7 +26,9 @@ function App() {
   };
 
   return (
-    <div className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat" style={{ backgroundImage: `url('/src/bg.jpg')` }}>
+    <div className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat" style={{ 
+      background: 'linear-gradient(to right, #ff7e5f, #feb47b)' 
+    }}>
       <div className="w-full">
         <div className="w-full max-w-md mx-auto border border-gray-600 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form onSubmit={(e) => { e.preventDefault(); handleConvert(); }}>
